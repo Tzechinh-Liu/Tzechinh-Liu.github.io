@@ -16,14 +16,20 @@ body {
   }
   
   ul {
-    background-color: #eeeeee;
-    /*border-color: purple;
+    /*background-color: #eeeeee;
+    border-color: purple;
     border-width: 5px;
-    border-style: solid;*/
-    padding: 2em;
+    border-style: solid;
+    padding: 2em;*/
   }
   
-  
+  li[class="white"] {
+    background-color: white;
+  }
+
+  li[class="grey"] {
+    background-color: #eeeeee;
+  }
   .job-title {
     color: #999999;
     font-weight: bold;
@@ -36,5 +42,5 @@ body {
   }
   
   a:hover {
-    text-decoration: green;
+    text-decoration: rebeccapurple;
   }
