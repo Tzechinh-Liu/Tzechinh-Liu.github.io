@@ -36,11 +36,34 @@ body {
   }
   
 
-  a:link,
+.external:after {
+  background-color: var(--icon-primary);
+  content: "";
+  display: inline-flex;
+  height: 10px;
+  margin-left: 4px;
+  -webkit-mask-image: url(/static/media/external.ad7e40a95bc765963433.svg);
+  mask-image: url(/static/media/external.ad7e40a95bc765963433.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 10px
+}
+
+  /*a:link,
   a:visited {
     color: #375acd;
   }
   
   a:hover {
     text-decoration: rebeccapurple;
-  }
+  }*/
+
+a:link,
+a:visited {
+  color: #375acd;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+}
