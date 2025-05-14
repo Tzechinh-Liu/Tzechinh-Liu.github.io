@@ -42,8 +42,8 @@ body {
   display: inline-flex;
   height: 10px;
   margin-left: 4px;
-  -webkit-mask-image: url(/static/media/external-link-svgrepo-com.svg);
-  mask-image: url(/static/media/external-link-svgrepo-com.svg);
+  -webkit-mask-image: url(../static/media/external-link-svgrepo-com.svg);
+  mask-image: url(../static/media/external-link-svgrepo-com.svg);
   -webkit-mask-size: cover;
   mask-size: cover;
   width: 10px
